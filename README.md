@@ -32,16 +32,14 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 
   ### De eerste versie/schets:
   <img src="readme-images/Interface-uitwerking1.jpg" width="375px" alt="eerste versie/schets">
-  <img src="readme-images/Consols.jpg" width="375px" alt="eerste versie/schets consols idee">
   <img src="readme-images/MIRO BOARD_19:4.png" width="375px" alt="Miro board 19/4">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - html/css/js weer onder de knie krijgen.
+  - Vloeiende keyframe animaties kunnen maken.
+  - Een concept kunnen omzetten naar een werkende interface.
  
 </details>
 
@@ -54,23 +52,33 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Twijfel over keuze voor concols in interface.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb nagedacht over de mogelijke concols om Yoshi te laten bewegen. Ik ben hier nog niet over uit. De 'Nintendo-toetsen' passen beter bij het thema, maar zijn lastiger te realiseren aangezien ik hier veel Javascript voor moet gebruiken. Het Click & Swipe is gemakkelijker, maar daarintegen weer minder passend. Ik moet daarom kijken betreft de tijd wat het meest haalbaar is voor mij. 
 
+  <img src="readme-images/Consols.jpg" width="375px" alt="eerste versie/schets consols idee">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Feedback van Yentle op mijn ontwerp.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  De feedback was nuttig. Ik heb gekeken naar opties om de interface wat speelser te maken. Idee: De informatie weergeven als een card. Wanneer je hierop klikt opent deze en wanneer je deze card sluit, veranderd deze naar een extra leven of ga je een level omhoog. Hier moet ik nog even de keuze voor maken. 
 
+  <img src="readme-images/Feedback1.jpg" width="375px" alt="feedback op eerste schets">
+
+  * schets nog toevoegen aan readme.
+  
 
 
   ### Bevinding 3:
-  ...
+  Start html/css ging moeizaam.
+
+  #### oplossing:
+  Ik ging aan de slag met het realiseren van mijn gemaakte ontwerp, maar kwam er al snel achter dat ik het erg lastig vond om html/css te schrijven. Ik heb daarom hulp gevraagt aan klasgenoten en aan de docent. Ook heb ik gebruik gemaakt van de aangereikte online tools en de opdrachten op dlo. Uiteindelijk is er een beginnetje ontstaan. 
+
+  <img src="readme-images/progres1.jpg" width="375px" alt="start ontwerp html/css">
 
 </details>
 
@@ -83,11 +91,13 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Github pakt toont afbeeldingen niet in readme.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen.
 
+  <img src="readme-images/schermProgres2.jpg" width="375px" alt="screenshot progress ontwerp">
+  <img src="readme-images/schermGithub.jpg" width="375px" alt="screenshot Github">
 
 
   ### Bevinding 2:
