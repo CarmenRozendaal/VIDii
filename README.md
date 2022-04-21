@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Carmen Rozendaal, 500823349
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt verdiept de afgelopen jaren. Dat heeft ervoor gezorgd dat de kennis erover best is weggezakt. Daarom heb ik als beginpositie gekozen voor BLAUW maar dit zou ook ROOD kunnen worden naarmate ik er meer mee bezig ben.
 
 
 
@@ -25,10 +25,15 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>Ik heb de opdracht 'Tijdlijn' gekozen, hierbij ga ik me bezighouden met het karakter Yoshi. Ik heb vroeger zelf veel Mario gespeeld en ik vond Yoshi eigenlijk altijd het leukste karakter. Hij is schattig en grappig en bestaat ook al sinds het het 1e spel van Mario. Dit was in (1990). Ook zijn er veel varianten van Yoshi gemaakt.
+
+  Het idee voor de interface is dat je als gebruiker zelf door de geschiedenis van Yoshi heen gaat. Je gaat hier doorheen door te springen / lopen op de blokken. Bij elke groene pijp die je tegenkomt, kom je in een ander tijdperk, en veranderd Yoshi hiernaar. Bij deze Yoshi komt vervolgens een card met daarin het logo van het betreffende spel en een 'info-icoon'. Wanneer je hierop klikt, flipt deze en zit hierachter meer informatie verstopt.
+  </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/Interface-uitwerking1.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/Consols.jpg" width="375px" alt="eerste versie/schets consols idee">
+  <img src="readme-images/MIRO BOARD_19:4.png" width="375px" alt="Miro board 19/4">
 
 
   ### Je ambitie: 
