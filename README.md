@@ -91,7 +91,7 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Github toont afbeeldingen niet in readme.
+  Github toont afbeeldingen niet in de browser, afbeeldingen wel goed gekoppeld want vanuit de map openen gaat wel goed.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen.
