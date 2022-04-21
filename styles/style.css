@@ -14,6 +14,187 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
-h1 {
-  color:crimson;
+/* achtergrond */
+
+body {
+  background-image: linear-gradient(#90EBFE,#2A9FFF);
 }
+
+.Achtergrond {
+  height: 100%;
+  width: 800em;
+  position: absolute;
+  bottom:0;
+}
+
+/* Consols */
+.SpringKnop button {
+  width: 10em;
+  height: 5em;
+  background-color: red;
+  color: white;
+  position: fixed;
+  left: 40em;
+  margin: 3.5em;
+  border-radius: .5em;
+}
+
+/* titel en tekst */
+h1 {
+  color:black;
+  font-family: "Krungthep";
+  font-size: 2em;
+  position: fixed;
+  margin: 2em 0em 0em 1.3em;  
+}
+
+h2 {
+  color:black;
+  font-family:Verdana regular, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  position: fixed;
+  margin: 7em 2em 0em 2.5em;  
+}
+
+p {
+  color:white;
+  font-family: "Krungthep";
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Groene Pijp ontwerp */
+.groenePijp {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  bottom: 0;
+  margin:0;
+}
+
+.groenePijp div:nth-of-type(1) {
+  width: 8em;
+  height: 3em;
+  border-radius: .5em;
+  background-color: green;
+}
+
+.groenePijp div:nth-of-type(2) {
+  width: 7em;
+  height: 10em;
+  background-color: green;
+  display: grid;
+  place-items: center;
+  box-shadow: inset 0 1em 1em -1em black;
+}
+
+.groenePijp p {
+  font-size: 1.5em;
+  margin:0;
+}
+
+/* Joshi deel 1 */
+.Yoshi1990 img {
+  position: absolute;
+  left: 3em;
+  bottom: 11.8em;
+  width: 8em;
+  height:auto;
+  margin: 0;
+}
+
+.Yoshi1990 img:hover {
+  opacity: 50%;
+}
+
+.groenePijp.een {
+  left:2em;
+}
+
+.groenePijp.een:hover {
+  opacity: 80%;
+}
+
+.ei.een img {
+  position: absolute;
+  left: 36em;
+  bottom: 12em;
+  width: 12em;
+  height: auto;
+}
+
+/* Blokjes horizontaal */
+.blokjeHorizontaal.een {
+  display: flex;
+  position: absolute;
+  bottom: 10em;
+  left: 12em;
+}
+
+.blokjeHorizontaal.een img {
+  width: 7em;
+  height: auto;
+  margin: .5em;
+}
+
+/* Joshi Deel 2 */
+.groenePijp.twee {
+  left:38em;
+}
+
+.groenePijp.twee:hover {
+opacity: 80%;
+}
+
+/* Blokjes hoek ontwerp */
+.blokjeHoek {
+  display: flex;
+  position: absolute;
+  bottom: 0em;
+  left: 48em;
+}
+
+.blokjeHoek img {
+  width: 30%;
+  height: auto;
+  margin: 0em;
+}
+
+.Yoshi1993 img {
+  position: absolute;
+  left: 46em;
+  bottom: 15em;
+  width: 10em;
+  margin: 0;
+}
+
+/* Joshi Deel 3 */
+.groenePijp.drie {
+  left:68em;
+}
+
+.ei.twee img {
+  position: absolute;
+  left: 66em;
+  bottom: 12em;
+  width: 12em;
+  height: auto;
+}
+
+.blokjeHorizontaal.twee {
+  display: flex;
+  position: absolute;
+  bottom: 10em;
+  left: 78em;
+}
+
+.blokjeHorizontaal.twee img {
+  width: 7em;
+  height: auto;
+  margin: .5em;
+}
+
+
+
+
+
