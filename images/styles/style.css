@@ -1,0 +1,282 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+html, body {
+  height:100%;
+  margin:0;
+}
+
+button:not([disabled]) {
+  cursor:pointer;
+}
+
+/* jouw CSS vanaf hier */
+
+/* achtergrond */
+
+body {
+  background-image: linear-gradient(#90EBFE,#2A9FFF);
+}
+
+.Achtergrond {
+  height: 100%;
+  width: 240em;
+  position: absolute;
+  bottom:0;
+}
+
+/* titel en tekst */
+h1 {
+  color:black;
+  font-family: "Krungthep";
+  font-size: 2em;
+  position: fixed;
+  margin: 2em 0em 0em 1.3em;  
+}
+
+h2 {
+  color:black;
+  font-family:Verdana regular, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  position: fixed;
+  margin: 7em 2em 0em 2.5em;  
+}
+
+p {
+  color:white;
+  font-family: "Krungthep";
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Groene Pijp ontwerp */
+.groenePijp {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  bottom: 0;
+  margin:0;
+}
+
+.groenePijp div:nth-of-type(1) {
+  width: 8em;
+  height: 3em;
+  border-radius: .5em;
+  background-color: green;
+}
+
+.groenePijp div:nth-of-type(2) {
+  width: 7em;
+  height: 10em;
+  background-color: green;
+  display: grid;
+  place-items: center;
+  box-shadow: inset 0 1em 1em -1em black;
+}
+
+.groenePijp p {
+  font-size: 1.5em;
+  margin:0;
+}
+
+/* Joshi deel 1 */
+.Yoshi1990 img {
+  position: absolute;
+  left: 4em;
+  bottom: 11.8em;
+  width: 7em;
+  height:auto;
+  margin: 0;
+}
+
+.Yoshi1990 img:hover {
+  opacity: 50%;
+}
+
+.groenePijp.een {
+  left:2em;
+}
+
+.groenePijp.een:hover {
+  opacity: 80%;
+}
+
+.ei.een img {
+  position: absolute;
+  left: 18em;
+  bottom: 17em;
+  width: 12em;
+  height: auto;
+}
+
+/* Blokjes horizontaal */
+.blokjeHorizontaal.een {
+  display: flex;
+  position: absolute;
+  bottom: 10em;
+  left: 12em;
+}
+
+.blokjeHorizontaal img {
+  width: 7em;
+  height: auto;
+  margin: .5em;
+}
+
+/* Joshi Deel 2 */
+.groenePijp.twee {
+  left:38em;
+}
+
+.groenePijp.twee:hover {
+opacity: 80%;
+}
+
+.Yoshi1993 img {
+  position: absolute;
+  left: 39em;
+  bottom: 12em;
+  width: 8em;
+  margin: 0;
+}
+
+/* Blokjes hoek ontwerp */
+.blokjeHoek {
+  display: flex;
+  position: absolute;
+  bottom: 0em;
+  left: 48em;
+}
+
+.blokjeHoek img {
+  width: 30%;
+  height: auto;
+  margin: 0em;
+}
+
+
+/* Joshi Deel 3 */
+.groenePijp.drie {
+  left:68em;
+}
+
+.ei.twee img {
+  position: absolute;
+  left: 84em;
+  bottom: 0em;
+  width: 12em;
+  height: auto;
+}
+
+.Yoshi1995 img {
+  position: absolute;
+  left: 68em;
+  bottom: 11em;
+  width: 9em;
+  margin: 0;
+}
+
+.blokjeHorizontaal.twee {
+  display: flex;
+  position: absolute;
+  bottom: 10em;
+  left: 78em;
+}
+
+/* Joshi Deel 4 */
+.groenePijp.vier {
+  left:105em;
+}
+
+.Yoshi1998 img {
+  position: absolute;
+  left: 103em;
+  bottom: 12em;
+  width: 14em;
+  margin: 0;
+}
+
+.blokjeHoek.twee {
+  display: flex;
+  position: absolute;
+  bottom: 0em;
+  left: 118em;
+}
+
+/* Joshi Deel 5 */
+.groenePijp.vijf {
+  left:140em;
+}
+
+.Yoshi2005 img {
+  position: absolute;
+  left: 125em;
+  bottom: 15em;
+  width: 15em;
+  margin: 0;
+}
+
+.blokjeHorizontaal.drie {
+  display: flex;
+  position: absolute;
+  bottom: 10em;
+  left: 152em;
+}
+
+/* Joshi Deel 6 */
+.groenePijp.zes {
+  left:180em;
+}
+
+.Yoshi2019 img {
+  position: absolute;
+  left: 180em;
+  bottom: 12em;
+  width: 9em;
+  margin: 0;
+}
+
+/* Einvlag ontwerp */
+.eindvlag {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  right: 20em;
+  bottom: 0;
+  margin:0;
+}
+
+.eindvlag div:nth-of-type(1) {
+  width: 2em;
+  height: 25em;
+  background-color: white;
+  box-shadow: inset 0em 0em .6em .2em grey;
+}
+
+.eindvlag div:nth-of-type(2) {
+  width: 4em;
+  height: 4em;
+  border-radius: 3em;
+  background-color: yellow;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 24em;
+  box-shadow: inset 0 .8em 1em -1em black;
+}
+
+.eindvlag div img {
+  width: 8em;
+  height: 6em;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 16em;
+  left: 2em;
+  box-shadow: 1em 1em 1em -1em grey;
+}
+
+
+
