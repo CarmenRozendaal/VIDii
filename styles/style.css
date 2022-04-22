@@ -31,7 +31,7 @@ body {
 h1 {
   color:black;
   font-family: "Krungthep";
-  font-size: 2em;
+  font-size: 2.5em;
   position: fixed;
   margin: 2em 0em 0em 1.3em;  
 }
@@ -39,9 +39,9 @@ h1 {
 h2 {
   color:black;
   font-family:Verdana regular, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
   position: fixed;
-  margin: 7em 2em 0em 2.5em;  
+  margin: 6em 2em 0em 2em;  
 }
 
 p {
@@ -122,43 +122,21 @@ p {
   }
 
   50% {
-    transform:translatex(6em) rotate(180deg) ;
+    transform:translatex(8em) rotate(180deg) ;
   }
 
   75% {
-    transform: translatex(9em) rotate(270deg);
+    transform: translatex(12em) rotate(270deg);
   }
 
   100% {
-    transform: translatex(12em) rotate(360deg);
-  }
-}
-
-@keyframes verplaats {
-  0% {
-    transform:translatey(0);
-  }
-
-  25% {
-    transform:translatey(-3);
-  }
-
-  50% {
-    transform:translatey(-6);
-  }
-
-  75% {
-    transform:translatey(-3);
-  }
-
-  100% {
-    transform:translatey(0);
+    transform: translatex(16em) rotate(360deg);
   }
 }
 
 .ei.een img:hover {
   animation-name:draai;
-  animation-duration:.8s;
+  animation-duration:1s;
   animation-delay:0s;
   animation-fill-mode:none, 
 }
@@ -226,7 +204,7 @@ opacity: 80%;
 
 .ei.twee img:hover {
   animation-name:springen;
-  animation-duration:.4s;
+  animation-duration:.2s;
   animation-delay:0s;
   animation-iteration-count:infinite;
   animation-fill-mode:none, 
@@ -283,7 +261,7 @@ opacity: 80%;
 
 .ei.drie img {
   position: absolute;
-  left: 115em;
+  left: 117em;
   bottom: 17em;
   width: 12em;
   height: auto;
@@ -294,6 +272,35 @@ opacity: 80%;
   position: absolute;
   bottom: 0em;
   left: 118em;
+}
+
+/* animatie 3 */
+@keyframes val {
+  0% {
+    transform:translate(3em, 5em) rotate(none);
+  }
+
+  25% {
+    transform:translate(7em, 15em) rotate(90deg);
+  }
+
+  50% {
+    transform:translate(3em, 20em) rotate(180deg);
+  }
+  
+  75% {
+    transform:translate(18em, 40em) rotate(270deg);
+  }
+
+  100% {
+    transform:translate(20em, 60em) rotate(360deg);
+  }
+}
+
+.ei.drie img:hover {
+  animation-name:val;
+  animation-duration:5s;
+  animation-fill-mode:none, 
 }
 
 /* Joshi Deel 5 */
