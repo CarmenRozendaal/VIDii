@@ -22,21 +22,9 @@ body {
 
 .Achtergrond {
   height: 100%;
-  width: 800em;
+  width: 220em;
   position: absolute;
   bottom:0;
-}
-
-/* Consols */
-.SpringKnop button {
-  width: 10em;
-  height: 5em;
-  background-color: red;
-  color: white;
-  position: fixed;
-  left: 40em;
-  margin: 3.5em;
-  border-radius: .5em;
 }
 
 /* titel en tekst */
@@ -96,9 +84,9 @@ p {
 /* Joshi deel 1 */
 .Yoshi1990 img {
   position: absolute;
-  left: 3em;
+  left: 4em;
   bottom: 11.8em;
-  width: 8em;
+  width: 7em;
   height:auto;
   margin: 0;
 }
@@ -117,11 +105,64 @@ p {
 
 .ei.een img {
   position: absolute;
-  left: 36em;
-  bottom: 12em;
+  left: 10em;
+  bottom: 17em;
   width: 12em;
   height: auto;
 }
+
+/* animatie 1 */
+@keyframes draai {
+  0% {
+    transform:translatex(0);
+  }
+
+  25% {
+    transform:translatex(3em) rotate(90deg) ;
+  }
+
+  50% {
+    transform:translatex(6em) rotate(180deg) ;
+  }
+
+  75% {
+    transform: translatex(9em) rotate(270deg);
+  }
+
+  100% {
+    transform: translatex(12em) rotate(360deg);
+  }
+}
+
+@keyframes verplaats {
+  0% {
+    transform:translatey(0);
+  }
+
+  25% {
+    transform:translatey(-3);
+  }
+
+  50% {
+    transform:translatey(-6);
+  }
+
+  75% {
+    transform:translatey(-3);
+  }
+
+  100% {
+    transform:translatey(0);
+  }
+}
+
+.ei.een img:hover {
+  animation-name:draai;
+  animation-duration:.8s;
+  animation-delay:0s;
+  animation-fill-mode:none, 
+}
+
 
 /* Blokjes horizontaal */
 .blokjeHorizontaal.een {
@@ -131,7 +172,7 @@ p {
   left: 12em;
 }
 
-.blokjeHorizontaal.een img {
+.blokjeHorizontaal img {
   width: 7em;
   height: auto;
   margin: .5em;
@@ -144,6 +185,14 @@ p {
 
 .groenePijp.twee:hover {
 opacity: 80%;
+}
+
+.Yoshi1993 img {
+  position: absolute;
+  left: 39em;
+  bottom: 12em;
+  width: 8em;
+  margin: 0;
 }
 
 /* Blokjes hoek ontwerp */
@@ -160,12 +209,27 @@ opacity: 80%;
   margin: 0em;
 }
 
-.Yoshi1993 img {
-  position: absolute;
-  left: 46em;
-  bottom: 15em;
-  width: 10em;
-  margin: 0;
+/* animatie 2 */
+@keyframes springen {
+  0% {
+    transform:translatey(0);
+  }
+
+  50% {
+    transform:translatey(-3em);
+  }
+
+  100%{
+    transform:translatey(0);
+  }
+}
+
+.ei.twee img:hover {
+  animation-name:springen;
+  animation-duration:.4s;
+  animation-delay:0s;
+  animation-iteration-count:infinite;
+  animation-fill-mode:none, 
 }
 
 /* Joshi Deel 3 */
@@ -173,12 +237,24 @@ opacity: 80%;
   left:68em;
 }
 
+.groenePijp.drie:hover {
+  opacity: 80%;
+}
+
 .ei.twee img {
   position: absolute;
-  left: 66em;
-  bottom: 12em;
+  left: 84em;
+  bottom: 0em;
   width: 12em;
   height: auto;
+}
+
+.Yoshi1995 img {
+  position: absolute;
+  left: 68em;
+  bottom: 11em;
+  width: 9em;
+  margin: 0;
 }
 
 .blokjeHorizontaal.twee {
@@ -188,13 +264,118 @@ opacity: 80%;
   left: 78em;
 }
 
-.blokjeHorizontaal.twee img {
-  width: 7em;
-  height: auto;
-  margin: .5em;
+/* Joshi Deel 4 */
+.groenePijp.vier {
+  left:105em;
 }
 
+.groenePijp.vier:hover {
+  opacity: 80%;
+}
 
+.Yoshi1998 img {
+  position: absolute;
+  left: 103em;
+  bottom: 12em;
+  width: 14em;
+  margin: 0;
+}
+
+.ei.drie img {
+  position: absolute;
+  left: 115em;
+  bottom: 17em;
+  width: 12em;
+  height: auto;
+}
+
+.blokjeHoek.twee {
+  display: flex;
+  position: absolute;
+  bottom: 0em;
+  left: 118em;
+}
+
+/* Joshi Deel 5 */
+.groenePijp.vijf {
+  left:140em;
+}
+
+.groenePijp.vijf:hover {
+  opacity: 80%;
+}
+
+.Yoshi2005 img {
+  position: absolute;
+  left: 135em;
+  bottom: 11em;
+  width: 18em;
+  margin: 0;
+}
+
+.blokjeHorizontaal.drie {
+  display: flex;
+  position: absolute;
+  bottom: 10em;
+  left: 152em;
+}
+
+/* Joshi Deel 6 */
+.groenePijp.zes {
+  left:180em;
+}
+
+.groenePijp.zes:hover {
+  opacity: 80%;
+}
+
+.Yoshi2019 img {
+  position: absolute;
+  left: 180em;
+  bottom: 12em;
+  width: 9em;
+  margin: 0;
+}
+
+/* Einvlag ontwerp */
+.eindvlag {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  right: 18em;
+  bottom: 0;
+  margin:0;
+}
+
+.eindvlag div:nth-of-type(1) {
+  width: 2em;
+  height: 25em;
+  background-color: white;
+  box-shadow: inset 0em 0em .6em .2em grey;
+}
+
+.eindvlag div:nth-of-type(2) {
+  width: 4em;
+  height: 4em;
+  border-radius: 3em;
+  background-color: yellow;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 24em;
+  box-shadow: inset 0 .8em 1em -1em black;
+}
+
+.eindvlag div img {
+  width: 8em;
+  height: 6em;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 16em;
+  left: 2em;
+  box-shadow: 1em 1em 1em -1em grey;
+}
 
 
 
