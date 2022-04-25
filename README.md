@@ -66,9 +66,9 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   #### oplossing:
   De feedback was nuttig. Ik heb gekeken naar opties om de interface wat speelser te maken. Idee: De informatie weergeven als een card. Wanneer je hierop klikt opent deze en wanneer je deze card sluit, veranderd deze naar een extra leven of ga je een level omhoog. Hier moet ik nog even de keuze voor maken. 
 
-  <img src="readme-images/Feedback1.png" width="375px" alt="feedback op eerste schets">
+  <img src="readme-images/IdeeSchets.jpg" width="375px" alt="eerste schets">
 
-  * schets nog toevoegen aan readme.
+  <img src="readme-images/Feedback1.png" width="375px" alt="feedback op eerste schets">
   
 
 
