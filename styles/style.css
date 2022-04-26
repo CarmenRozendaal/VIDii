@@ -20,31 +20,25 @@ button:not([disabled]) {
 #achtergrond {
   height:100%;
   width:100%;
-  position: absolute;
+  position: fixed;
   bottom:0;
   margin:0;
+  opacity: 80%;
 }
 
 /* titel en tekst */
 h1 {
   color:black;
-  font-family: "Krungthep";
-  font-size: 2.5em;
+  font-family: "Press Start 2P";
+  font-size: 1.8em;
   position: fixed;
-  margin: 2em 0em 0em 2em;  
-}
-
-h2 {
-  color:black;
-  font-family:Verdana regular, Geneva, Tahoma, sans-serif;
-  font-size: 1.3em;
-  position: fixed;
-  margin: 7em 2em 0em 3.8em;  
+  margin: 2em 4em 0 2em;
+  line-height: 1.3em;  
 }
 
 p {
   color:white;
-  font-family: "Krungthep";
+  font-family:"Press Start 2P";
   font-size: 1em;
   text-align: center;
 }
