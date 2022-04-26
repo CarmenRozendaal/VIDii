@@ -49,7 +49,7 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + oplossing </summary>
 
   ### Bevinding 1:
   Twijfel over keuze voor concols in interface.
@@ -67,10 +67,8 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   De feedback was nuttig. Ik heb gekeken naar opties om de interface wat speelser te maken. Idee: De informatie weergeven als een card. Wanneer je hierop klikt opent deze en wanneer je deze card sluit, veranderd deze naar een extra leven of ga je een level omhoog. Hier moet ik nog even de keuze voor maken. 
 
   <img src="readme-images/IdeeSchets.jpg" width="375px" alt="eerste schets">
-
   <img src="readme-images/Feedback1.png" width="375px" alt="feedback op eerste schets">
   
-
 
   ### Bevinding 3:
   Start html/css ging moeizaam.
@@ -88,28 +86,32 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + oplossing</summary>
   
   ### Bevinding 1:
-  Github toont afbeeldingen niet in de browser, afbeeldingen wel goed gekoppeld want vanuit de map openen gaat wel goed.
+  Github toont afbeeldingen niet in de browser, terwijl vanuit de map openen dit wel goed gaat.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen.
+  De images bleken niet goed gekoppeld, zo navigeerde ik binnen de scr naar de folder die op mijn computer stond. Maar dit moest de map die ook op Github stond zijn. Mijn code was "/images/afbeelding.png" terwijl het "images/afbeelding.png" moest zijn.
 
   <img src="readme-images/schermProgres2.png" width="375px" alt="screenshot progress ontwerp">
   <img src="readme-images/schermGithub.png" width="375px" alt="screenshot Github">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Github raakt overbelast wanneer je teveel achter elkaar upload.
+
+  #### oplossing:
+  Ik had mijn nieuwe ontwerp geupload op Github, maar deze bleef de oude variant van mijn ontwerp tonen. Het bleek dat github deze opsloeg in de cash-geheugen als 'backup'. Door deze af en toe te wissen, toonde hij wel steeds de nieuwste versie.
+  
+  ### Bevinding 3:
+  Achtergrond afbeelding niet leesbaar of viel over content heen.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
-
-
-  ### Bevinding 3:
-  ...
+  <img src="readme-images/schermProgres3.png" width="375px" alt="screenshot scherm image overlay">
+  <img src="readme-images/schermProgres4.png" width="375px" alt="screenshot scherm image fout">
 
 </details>
 
@@ -118,7 +120,7 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 ## Voortgang/Feedback 3
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + oplossing</summary>
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
@@ -174,10 +176,7 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. bron 1: https://nl.wikipedia.org/wiki/Yoshi
+2. bron 2: https://www.bol.com/nl/nl/p/new-super-mario-bros/1004004004316136/#product_specifications
 
 </details>

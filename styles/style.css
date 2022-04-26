@@ -17,40 +17,65 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
+/* Styling achtergrond */
 #achtergrond {
   height:100%;
   width:100%;
   position: fixed;
+  display:flex;
   bottom:0;
   margin:0;
-  opacity: 80%;
+  opacity:70%;
 }
 
-/* titel en tekst */
-h1 {
-  color:black;
-  font-family: "Press Start 2P";
-  font-size: 1.8em;
-  position: fixed;
-  display:block;
-  margin: 2em 4em 0 2em;
-  line-height: 1.5em;  
-}
-
+/* Styling Tekstkader + losse tekst */
 p {
   color:white;
   font-family:"Press Start 2P";
-  font-size: 1em;
   text-align: center;
 }
 
-/* Groene Pijp ontwerp */
+.tekstvlak {
+  width:50em;
+  height:11em;
+  position:fixed;
+  justify-content: center;
+  left:2em;
+  top:3em;
+  background-color:white;
+  border: .5em  dashed red;
+  box-shadow: 0.2em 0.2em 0.2em 0em grey;
+}
+
+.tekstvlak h1 {
+  color:black;
+  font-family: "Press Start 2P";
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.5em;
+  margin: 1em 1em 0.5em 1.5em;  
+}
+
+.tekstvlak p {
+  color:black;
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.7em;
+  margin:1.5em 15em 3em 2em;
+}
+
+
+/* Styling Groene Pijp */
 .groenePijp {
+  background:none;
+  border:none;
   display: grid;
   justify-items: center;
   position: absolute;
   bottom: 0;
   margin:0;
+  padding:0;
+  font-size: 1em;
 }
 
 .groenePijp div:nth-of-type(1) {
@@ -69,12 +94,19 @@ p {
   box-shadow: inset 0 1em 1em -1em black;
 }
 
-.groenePijp p {
-  font-size: 1.5em;
-  margin:0;
+.groenePijp p:nth-of-type(1) {
+  font-size: 1.3em;
+  padding:0em;
+  margin-top:1.5em;
 }
 
-/* Joshi deel 1 */
+.groenePijp p:nth-of-type(2) {
+  font-size: .9em;
+  line-height: 1.5em;
+  padding:0em 0.6em;
+}
+
+/* Styling Joshi deel 1 */
 .yoshi1 {
   position: absolute;
   left: 2em;
@@ -93,6 +125,7 @@ p {
   opacity:80%;
 }
 
+
 .ei.een img {
   position: absolute;
   left: 10em;
@@ -101,7 +134,7 @@ p {
   height: auto;
 }
 
-/* animatie 1 */
+/* animatie ei 1 */
 @keyframes draai {
   0% {
     transform:translatex(0);
@@ -132,7 +165,7 @@ p {
 }
 
 
-/* Blokjes horizontaal */
+/* Styling Blokjes horizontaal */
 .blokjeHorizontaal.een {
   display: flex;
   position: absolute;
@@ -146,15 +179,7 @@ p {
   margin: .5em;
 }
 
-/* Joshi Deel 2 */
-.groenePijp.twee {
-  left:38em;
-}
-
-.groenePijp.twee:hover {
-  opacity: 80%;
-}
-
+/* Styling Joshi Deel 2 */
 .yoshi2 {
   position: absolute;
   left: 1em;
@@ -164,11 +189,15 @@ p {
   display: block;
 }
 
-.yoshi2.hide {
-  opacity: 100%;
+.groenePijp.twee {
+  left:38em;
 }
 
-/* Blokjes hoek ontwerp */
+.groenePijp.twee:hover {
+  opacity: 80%;
+}
+
+/* Styling Blokjes hoek */
 .blokjeHoek {
   display: flex;
   position: absolute;
@@ -183,7 +212,16 @@ p {
 }
 
 
-/* Joshi Deel 3 */
+/* Styling Joshi Deel 3 */
+.yoshi3 {
+  position: absolute;
+  left: 0em;
+  bottom: 11em;
+  width: 8em;
+  margin: 0;
+  display:block;
+}
+
 .groenePijp.drie {
   left:68em;
 }
@@ -200,7 +238,7 @@ p {
   height: auto;
 }
 
-/* animatie 2 */
+/* animatie ei 2 */
 @keyframes springen {
   0% {
     transform:translatey(0);
@@ -223,15 +261,6 @@ p {
   animation-fill-mode:none, 
 }
 
-.yoshi3 {
-  position: absolute;
-  left: 0em;
-  bottom: 11em;
-  width: 8em;
-  margin: 0;
-  display:block;
-}
-
 .blokjeHorizontaal.twee {
   display: flex;
   position: absolute;
@@ -239,15 +268,7 @@ p {
   left: 79em;
 }
 
-/* Joshi Deel 4 */
-.groenePijp.vier {
-  left:105em;
-}
-
-.groenePijp.vier:hover {
-  opacity: 80%;
-}
-
+/* Styling Joshi Deel 4 */
 .yoshi4 {
   position: absolute;
   left: 0em;
@@ -255,6 +276,14 @@ p {
   width: 7em;
   margin: 0;
   display:block;
+}
+
+.groenePijp.vier {
+  left:105em;
+}
+
+.groenePijp.vier:hover {
+  opacity: 80%;
 }
 
 .blokjeHoek.twee {
@@ -266,51 +295,44 @@ p {
 
 .ei.drie img {
   position: absolute;
-  left: 117em;
+  left: 118em;
   bottom: 17em;
   width: 12em;
   height: auto;
 }
 
 
-/* animatie 3 */
+/* animatie ei 3 */
 @keyframes val {
   0% {
-    transform:translate(4em, 4em) rotate(1turn);
+    transform:translate(3em, 5em) rotate(1turn);
   }
 
   25% {
-    transform:translate(6em, 6em) rotate(2turn);
+    transform:translate(5.5em, 6.5em) rotate(2turn);
   }
 
   50% {
-    transform:translate(10em, 8em) rotate(3turn);
+    transform:translate(9em, 8em) rotate(3turn);
   }
   
   75% {
-    transform:translate(13em, 12em) rotate(4turn);
+    transform:translate(11em, 12em) rotate(4turn);
   }
 
   100% {
-    transform:translate(18em, 18em) rotate(5turn);
+    transform:translate(19em, 19em) rotate(5turn);
   }
 }
 
 .ei.drie img:hover {
   animation-name:val;
-  animation-duration:3.5s;
+  animation-duration:4.3s;
+  animation-delay:.3s;
   animation-fill-mode:none, 
 }
 
-/* Joshi Deel 5 */
-.groenePijp.vijf {
-  left:150em;
-}
-
-.groenePijp.vijf:hover {
-  opacity: 80%;
-}
-
+/* Styling Joshi Deel 5 */
 .yoshi5 {
   position: absolute;
   left: 0em;
@@ -320,6 +342,14 @@ p {
   display: block;
 }
 
+.groenePijp.vijf {
+  left:150em;
+}
+
+.groenePijp.vijf:hover {
+  opacity: 80%;
+}
+
 .blokjeHorizontaal.drie {
   display: flex;
   position: absolute;
@@ -327,15 +357,7 @@ p {
   left: 161em;
 }
 
-/* Joshi Deel 6 */
-.groenePijp.zes {
-  left:180em;
-}
-
-.groenePijp.zes:hover {
-  opacity: 80%;
-}
-
+/* Styling Joshi Deel 6 */
 .yoshi6 {
   position: absolute;
   left: 0em;
@@ -345,7 +367,16 @@ p {
   display:block;
 }
 
-/* Einvlag ontwerp */
+.groenePijp.zes {
+  left:180em;
+}
+
+.groenePijp.zes:hover {
+  opacity: 80%;
+}
+
+
+/* Styling Einvlag */
 .eindvlag {
   display: grid;
   justify-items: center;
@@ -382,10 +413,9 @@ p {
   position: absolute;
   bottom: 3em;
   left: 2em;
-  box-shadow: 1em 1em 1em -1em grey;
 }
 
-/* animatie 4 */
+/* animatie 4 vlag */
 @keyframes vlag {
   0% {
     transform:translatey(0);
@@ -399,6 +429,42 @@ p {
 .eindvlag div img:hover {
   animation-name:vlag;
   animation-duration:1.5s;
+}
+
+/* buttons */
+button.button {
+  background-color:transparent;
+  border:none;
+  box-shadow: 0.2em 0.2em 0.2em -1em grey;
+  width: 5em;
+  height:5em;
+  position:absolute;
+  top: 5em;
+  right: 3em;
+}
+
+button.button:hover {
+  opacity: 85%;
+  box-shadow: inset 0.1em 0.2em 0.3em 0.2em grey;
+}
+
+button.reload {
+  background-color:yellow;
+  border:none;
+  box-shadow: 0.2em 0.2em 0.2em 0em grey;
+  width: 5em;
+  height:5em;
+  position:absolute;
+  top: 5em;
+  right: 3em;
+}
+
+button.reload:hover {
+  opacity: 85%;
+}
+
+button img {
+  width: 100%;
 }
 
 

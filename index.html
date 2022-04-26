@@ -6,7 +6,7 @@
 	<meta name="author" content="Carmen Rozendaal">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>VIDii 2011/22 - Tijdlijn</title>
+	<title>VIDii 2011/22 - Yoshi Tijdlijn</title>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
 	<link href="styles/style.css" rel="stylesheet">
@@ -17,16 +17,21 @@
 	<img id="achtergrond" src="images/achtergrondAlgemeen.jpg">
 	
 	<header>
-		<h1>De geschiedenis van Yoshi</h1>
+		<section class="tekstvlak">
+			<h1 id="titel">1990. Het ontstaan van Yoshi</h1>
+			<p id="platteTekst"> In het Nintendo spel Super Mario World, is Yoshi voor het eerst te zien. Het woord 'Yoshi' betekent beter, best of gelukkig. Het is niet bekend wat voor dier hij is, maar vele beweren dat Yoshi een dinosaurus is.</p>
+			<button class="button" id="nextButton"><next>
+				<img src="images/next.png">
+			</button>
+		</section>
 	</header>
-
 	
 	<main>
-		<section class="groenePijp een"> 
-			<img class="yoshi1" src="">
+		<button class="groenePijp een"> 
+			<img class="yoshi1" src="images/yoshi_1990.png">
 			<div></div>
-			<div><p>1990</p></div>
-		</section>
+			<div><p>1990</p><p>klik hier</p></div>
+		</button>
 
 		<section class="blokjeHorizontaal een">
 			<img src="images/blokje.png">
@@ -38,31 +43,31 @@
 			<img src="images/yoshi_egg1990.png">
 		</section>
 
-		<section class="groenePijp twee">
+		<button class="groenePijp twee">
 			<img class="yoshi2" src=""> 
 			<div></div>
 			<div><p>1993</p></div>
-		</section>
+		</button>
 
 		<section class="blokjeHoek">
 			<img src="images/blokjeHoek.png">
 		</section>
 		
-		<section class="groenePijp drie">
+		<button class="groenePijp drie">
 			<img class="yoshi3" src=""> 
 			<div></div>
 			<div><p>1995</p></div>
-		</section>
+		</button>
 
 		<section class="ei twee">
 			<img src="images/yoshi_egg1995.png">
 		</section>
 
-		<section class="groenePijp vier">
+		<button class="groenePijp vier">
 			<img class="yoshi4" src=""> 
 			<div></div>
 			<div><p>1998</p></div>
-		</section>
+		</button>
 
 		<section class="blokjeHorizontaal twee">
 			<img src="images/blokje.png">
@@ -78,22 +83,22 @@
 			<img src="images/blokjeHoek.png">
 		</section>
 
-		<section class="groenePijp vijf">
+		<button class="groenePijp vijf">
 			<img class="yoshi5" src=""> 
 			<div></div>
-			<div><p>2005</p></div>
-		</section>
+			<div><p>2006</p></div>
+		</button>
 
 		<section class="blokjeHorizontaal drie">
 			<img src="images/blokje.png">
 			<img src="images/blokje.png">
 		</section>
 	
-		<section class="groenePijp zes">
+		<button class="groenePijp zes">
 			<img class="yoshi6" src=""> 
 			<div></div>
 			<div><p>2019</p></div>
-		</section>
+		</button>
 
 		<section class="eindvlag"> 
 			<div></div>
@@ -101,7 +106,10 @@
 			<div><img src="images/yoshiVlag.jpg" alt="yoshiVlag"></div>
 		</section>
 
-		</section>
+		<button class="reload" id="reloadButton">
+			<img src="images/reload.png">
+		</button>
+
 	</main>
 
 	<script src="scripts/script.js"></script>
