@@ -17,6 +17,19 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
+/* Custom Properties */
+
+:root {
+  --wit: rgb(255, 255, 255);
+  --rood: rgb(255, 0, 0);
+  --groen: rgb(0, 128, 0);
+  --geel: rgb(255, 255, 0);
+  --shadowgrijs: rgb(128, 128, 128);
+  --zwart: rgb(0, 0, 0);
+
+  --Yoshifont: "Press Start 2P";
+}
+
 /* Styling achtergrond */
 #achtergrond {
   height:100%;
@@ -26,12 +39,13 @@ button:not([disabled]) {
   bottom:0;
   margin:0;
   opacity:70%;
+  object-fit: cover;
 }
 
 /* Styling Tekstkader + losse tekst */
 p {
-  color:white;
-  font-family:"Press Start 2P";
+  color:var(--wit);
+  font-family:var(--Yoshifont);
   text-align: center;
 }
 
@@ -42,14 +56,14 @@ p {
   justify-content: center;
   left:2em;
   top:3em;
-  background-color:white;
-  border: .5em  dashed red;
-  box-shadow: 0.2em 0.2em 0.2em 0em grey;
+  background-color: var(--wit);
+  border: .5em  dashed var(--rood);
+  box-shadow: 0.2em 0.2em 0.2em 0em var(--shadowgrijs);
 }
 
 .tekstvlak h1 {
-  color:black;
-  font-family: "Press Start 2P";
+  color: var(--zwart);
+  font-family:var(--Yoshifont);
   font-size: 15px;
   text-align: left;
   line-height: 1.5em;
@@ -57,7 +71,7 @@ p {
 }
 
 .tekstvlak p {
-  color:black;
+  color: var(--zwart);
   font-size: 11px;
   text-align: left;
   line-height: 1.7em;
@@ -82,16 +96,16 @@ p {
   width: 8em;
   height: 3em;
   border-radius: .5em;
-  background-color: green;
+  background-color: var(--groen);
 }
 
 .groenePijp div:nth-of-type(2) {
   width: 7em;
   height: 10em;
-  background-color: green;
+  background-color: var(--groen);
   display: grid;
   place-items: center;
-  box-shadow: inset 0 1em 1em -1em black;
+  box-shadow: inset 0 1em 1em -1em var(--zwart);
 }
 
 .groenePijp p:nth-of-type(1) {
@@ -389,20 +403,20 @@ p {
 .eindvlag div:nth-of-type(1) {
   width: 2em;
   height: 25em;
-  background-color: white;
-  box-shadow: inset 0em 0em .6em .2em grey;
+  background-color: var(--wit);
+  box-shadow: inset 0em 0em 0.6em .2em var(--shadowgrijs);
 }
 
 .eindvlag div:nth-of-type(2) {
   width: 4em;
   height: 4em;
   border-radius: 3em;
-  background-color: yellow;
+  background-color: var(--geel);
   display: grid;
   place-items: center;
   position: absolute;
   bottom: 24em;
-  box-shadow: inset 0 -1em 1.4em -1em grey;
+  box-shadow: inset 0 -1em 1.4em -1em var(--shadowgrijs);
 }
 
 .eindvlag div img {
@@ -429,13 +443,14 @@ p {
 .eindvlag div img:hover {
   animation-name:vlag;
   animation-duration:1.5s;
+  animation-fill-mode: forwards;
 }
 
 /* buttons */
 button.button {
   background-color:transparent;
   border:none;
-  box-shadow: 0.2em 0.2em 0.2em -1em grey;
+  box-shadow: 0.2em 0.2em 0.2em -1em var(--shadowgrijs);
   width: 5em;
   height:5em;
   position:absolute;
@@ -445,13 +460,13 @@ button.button {
 
 button.button:hover {
   opacity: 85%;
-  box-shadow: inset 0.1em 0.2em 0.3em 0.2em grey;
+  box-shadow: inset 0.1em 0.2em 0.3em 0.2em var(--shadowgrijs);
 }
 
 button.reload {
-  background-color:yellow;
+  background-color: var(--geel);
   border:none;
-  box-shadow: 0.2em 0.2em 0.2em 0em grey;
+  box-shadow: 0.2em 0.2em 0.2em 0em var(--shadowgrijs);
   width: 5em;
   height:5em;
   position:absolute;

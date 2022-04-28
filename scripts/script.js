@@ -107,29 +107,30 @@ var platteTekst= [
 ]
 
 nextButton.addEventListener ('click',loopen);
-nextButton.addEventListener ('click',tekst);
+// nextButton.addEventListener ('click',tekst);
 
 var i = 0;
 
 function loopen(){
 i++;
-console.log(i);
+// console.log(i);
 if (i === titel.length) {
     i = 0; 
 
     }
-    document.getElementById("titel").innerHTML=titel[i];
+    container.innerHTML=titel[i];
+    ondertekst.innerHTML=platteTekst[i];
 }
 
 
-var u = 0;
+// var u = 0;
 
-function tekst(){
-    u++;
-    console.log(u);
-    if (u === platteTekst.length) {
-        u = 0; 
+// function tekst(){
+//     u++;
+//     console.log(u);
+//     if (u === platteTekst.length) {
+//         u = 0; 
     
-    }
-    document.getElementById("platteTekst").innerHTML=platteTekst[u];
-}
+//     }
+//     document.getElementById("platteTekst").innerHTML=platteTekst[u];
+// }
