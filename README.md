@@ -81,8 +81,6 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 </details>
 
 
-
-
 ## Voortgang/Feedback 2
 
 <details>
@@ -108,13 +106,12 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   Achtergrond afbeelding niet leesbaar of viel over content heen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  In mijn html had ik verwezen naar een lege src, dit is waarom hij dit kader weergaf. Ook had ik de achtergrond in de header gezet terwijl deze in de body moest (dan valt die wel achter de content). Dus hier heb ik vervolgens mijn 'algemene achtergrond' ingezet en een ID aan gegeven'. Daarna heb ik met javascript het zo gemaakt dat wanneer je op een groene pijp klikt, de source veranderd naar de betreffende achtergrond. 
 
-  <img src="readme-images/schermProgres3.png" width="375px" alt="screenshot scherm image overlay">
-  <img src="readme-images/schermProgres4.png" width="375px" alt="screenshot scherm image fout">
+  <img src="readme-images/schermProgres3.png" width="375px" alt="scherm fout, image over content">
+  <img src="readme-images/schermProgres4.png" width="375px" alt="scherm image fout">
 
 </details>
-
 
 
 ## Voortgang/Feedback 3
@@ -123,27 +120,35 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   <summary>Mijn bevindingen + oplossing</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik had alleen on-click met de muis en hover-elementen in mijn ontwerp staan.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Uiteindelijk ervoor gezorgt dat alle groene pijpen en knoppen BUTTONS werden. Hierdoor kwam er een focusstate en kun je nu door mijn interface navigeren met de TAB-toets en klikken via de ENTER-Toets.
 
+  <img src="readme-images/schermProgres5.png" width="375px" alt="navigatie via tab">
+  <img src="readme-images/schermProgres6.png" width="375px" alt="focusstate button">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Site moest worden gerefreshed wanneer je aan het eind van de tijdlijn bent.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Wanneer je alle yoshi's hebt bekeken en je als het ware weer opnieuwe wilt beginnen, moest je oorspronkelijk de site refreshen in de browser. Maar ik vond het niet mooi en praktisch wanneer de gebruiker dit zelf moest doen. Ik heb daarom aan het eind van mijn ontwerp een refreshbutton gemaakt. Ditt is visueel aantrekkelijker en maakt het ook toegankelijker omdat de gebruiker snapt wat er gebeurt wanneer hij daarop klikt.
 
+  <img src="readme-images/schermProgres7.png" width="375px" alt="reloadbutton">
 
 
   ### Bevinding 3:
-  ...
+  Het maken van een text-array en een loop in Javascript leek simpeler dan gedacht.
+
+  #### oplossing:
+  Aangezien alle interactie doormiddel van de groene pijpen ging, wilde ik een nieuwe interactie toevoegen. Ik had daarom bedacht om de extra informatie over elk tijdperk in een kader te plaatsen waar je doorheen kon navigeren. Dit zou met een array en een loop moeten lukken. 1 array voor de titel die veranderd en ook een array voor de tekst eronder. Deze zouden beide worden aangeroepen door de button met het pijltje. Dit was nog vrij lastig. IK heb uiteindelijk hulp gevraagt aan Sam, Younes en Rowin. We waren dichtbij maar steeds werkte het op 1 stukje niet: De volgorde. Hij sloeg een getal over of hij klikte eindeloos door ipv te stoppen bij de laatste.
+  Uiteindelijk is het gelukt. Zo bleek het te liggen aan de startwaarde van de loop, deze moest op 0 staan. Vervolgens hebben we in de function aangegeven dat hij steeds 1 verder moest (dit was met i++). Tot slot moesten we een if toevoegen aan de funtion. DIt ging over dat als het eind van de array bereikt was, hij terug moest gaan naar 0. Het was ff ploegen maar we waren trots dat het gelukt was.
+
+  <img src="readme-images/schermProgres8.png" width="375px" alt="array & loop in ontwerp">
+  <img src="readme-images/schermProgres9.png" width="375px" alt="weergave Javascript">
 
 </details>
-
-
 
 
 ## Reflectie
@@ -152,23 +157,31 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/Eindresultaat1.png" width="375px" alt="final ontwerp beginscherm">
+  <img src="readme-images/Eindresultaat2.png" width="375px" alt="final ontwerp scherm1 volledig">
+  <img src="readme-images/Eindresultaat3.png" width="375px" alt="final ontwerp scherm met animatie">
+  <img src="readme-images/Eindresultaat4.png" width="375px" alt="final ontwerp scherm met interactie">
+  <img src="readme-images/Eindresultaat5.png" width="375px" alt="final ontwerp eindscherm">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik ben tevreden met het eindresultaat, dit omdat het ontwerp overeen komt met het idee dat ik aan het begin van dit vak had. Ik heb veel geleerd over html/css/javascript, zo snap ik nu weer meer hoe het werkt en kan ik het ook uitleggen/onderbouwen. Hier ben ik blij mee, want dit was namelijk behoorlijk weggezakt de afgelopen jaren. Ik heb geleerd dat je geduld moet hebben met code en alert moet zijn wanneer je dit schrijft, een foutje zit namelijk in een klein hoekje en kan ervoor zorgen dat je hele code uiteen valt. Ook heb ik geleerd dat je er op tijd mee moet beginnen, in een klein stukje code zit meer tijd dan gedacht. Wat goed ging was het maken van de 'losse elementen', veel heb ik zelf getekend maar ook heb ik photoshop gebruikt. Tot slot ging het goed om de elementen te positioneren en ben ik trots op de gemaakte animaties. Deze maken van mijn interface erg speels, wat goed past bij het ontwerp. Wat ook een leuke toevoeging is, is dat ondanks dat mijn ontwerp niet helemaal responsive is, hij zelfs op mijn telefoon goed te bekijken is.  
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/schermmobiel1.png" width="375px" alt="begingscherm mobiel">
+  <img src="readme-images/schermmobiel2.png" width="375px" alt="scherm 2 mobiel">
+  <img src="readme-images/schermmobiel3.png" width="375px" alt="animatie op mobiel">
+  <img src="readme-images/schermmobiel4.png" width="375px" alt="eindscherm met animatie op mobiel">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Waar ik moeite mee had, was dat wanneer je op de groene pijpen klikte, dat de Yoshi bleef staan. Deze veranderde wel wanneer je op een andere pijp klikte, maar hij ging niet weg. Dit heb ik geprobeerd via Javascript met het toggle-effect op te lossen maar dit lukte me niet. Uiteindelijk is het toch niet zo erg dat het niet werkt, want nu kan je wel in de tijdlijn de verschillende yoshi's met elkaar vergelijken doordat je ze tegelijk ziet. Wat er verder niet helemaal lukte, was de animatie van de vlag. Deze animatie start wel maar de vlag blijft niet op het hoogste punt staan, hij valt naar beneden. Ik heb in de keyframes dit proberen op te lossen door transformstate van 100% op dat punt te zetten, maar toch bleef die naar beneden zakken. Ik ben er nog niet achter waarom dit niet heeft gewerkt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Wat ik zou doen wanneer ik meer tijd had? Mij wat meer verdiepen in de code met oog op of ik deze misschien functioneler / handiger zou kunnen schrijven.
+
+  <img src="readme-images/scherm_lastig.png" width="375px" alt="yoshi's blijven staan">
+  <img src="readme-images/scherm_lastig2.png" width="375px" alt="vlag valt naar beneden">
+
 </details>
-
-
-
 
 
 ## Bronnenlijst
@@ -176,7 +189,8 @@ Ik heb al wel ervaring met code, maar dit is niet de richting waarin ik me hebt 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-1. bron 1: https://nl.wikipedia.org/wiki/Yoshi
-2. bron 2: https://www.bol.com/nl/nl/p/new-super-mario-bros/1004004004316136/#product_specifications
+1. bron 1: https://nl.wikipedia.org/wiki/Yoshi (informatie)
+2. bron 2: https://www.bol.com/nl/nl/p/new-super-mario-bros/1004004004316136/#product_specifications (informatie)
+3. bron 3: https://dlo.mijnhva.nl/d2l/le/content/324125/Home (tools)
 
 </details>
